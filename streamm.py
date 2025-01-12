@@ -1,8 +1,8 @@
 import streamlit as sl
 import pandas as pd
 sl.write("""
-# My Fist StremLit app
-Hello *World!*
+# Shankar's First app
+Hello *World!*, I am Shankar
 """)
 
 age=sl.slider("How old are you?",0,100,10)
