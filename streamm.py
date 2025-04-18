@@ -35,7 +35,7 @@ else:
         st.session_state.llm = ChatOpenAI(
         base_url  = "https://api.groq.com/openai/v1",
         api_key   = api_key,
-      #  model_name= "llama3-70b-8192"  #model name may reach limit
+      #  model_name= "llama3-70b-8192"  #model name reached limit
         model_name= "llama3-8b-8192"
     )   
         
